@@ -21,8 +21,8 @@
  * Генерировать ошибки если:
  * - Любой из аргументов не является функцией (в этой задаче, этой ошибкой нужно именно сломать скрипт, отлавливать её не нужно).
  */
-let calculateAdvanced;
-calculateAdvanced = (...functions) => {
+
+const calculateAdvanced = (...functions) => {
     const result = {
         value: null,
         errors: [],
